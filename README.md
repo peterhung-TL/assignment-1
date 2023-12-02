@@ -43,4 +43,17 @@ v.Try to submit the form with all valid inputs valid and verify that a success m
 
 credits:
 Content
--the layout of the navigation panel was 
+-the 'who are we' portion from the about us page  was taken from https://www.esplanade.com/whats-on/festivals-and-series/series/2023/mosaic-music-series/remember-a-stranger#artist-information
+-the 'inspiration' portion from the home page was taken from https://motifs.bandcamp.com/album/remember-a-stranger
+-the FAQs portion was taken from https://get.bandcamp.help/hc/en-us/sections/360001562874-Downloading-music
+the 'tour portion was taken from https://motifs.bandcamp.com/music.
+
+media:
+the photos in this site was obtained from
+-https://hear65.bandwagon.asia/articles/motifs-to-drop-debut-album-remember-a-stranger-this-november-music-release-2022-shoegaze-dream-pop-singapore
+-https://www.esplanade.com/whats-on/festivals-and-series/festivals/2022/baybeats/line-up/motifs
+-motifs band singapore
+-https://motifs.bandcamp.com/music
+
+acknowledgments:
+i got inspiration from https://www.taylorswift.com/
