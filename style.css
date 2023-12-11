@@ -1,0 +1,273 @@
+body{
+    background-color: aliceblue;
+    max-height: none;
+    overflow-x: hidden; 
+  }
+  h1 {
+    text-align: center;
+    font-family: Pyunji R;
+  }
+
+  h4{
+    font-family: Pyunji R;
+  }
+
+  h5{
+    font-family:'Times New Roman', Times, serif
+  }
+  ul { 
+    list-style-type: none; 
+    overflow: hidden;
+    background-color: white; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Adjusted to evenly distribute items */
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0; 
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center; 
+    text-decoration: none;
+    margin: 0;
+  }  
+  
+  li:first-child {
+    margin-left: 0; /* Remove margin for the first li element */
+  }
+  
+ 
+  .image {
+    max-width: 35%;
+    max-height: 50%;
+  }
+
+  #home-video-container {  
+    margin: 0px;
+    background-image: url('image_signup.jpg');
+    width: 100vw; 
+    padding: 30px;
+    overflow: hidden;
+  }
+  
+  #home-video {
+    width: 80vw;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .new-album-introduction { 
+    margin: 0px; 
+    padding: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;  
+    background-image: url('spotify_page.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  #new-album-image {
+    background-size: cover;   
+    width: 600px; 
+    height: 600px;   
+    background-image: url('remember-a-stranger.jpg'); 
+  }
+
+  #new-album-inspiration {
+    width: 600px;
+    margin-left: 100px;
+  }
+
+  #available-container { 
+    margin: 0px;
+    display: flex;
+    flex-direction: column; 
+    background-size: cover;
+    background-image: url('rmb-transparent.png');
+    background-repeat: no-repeat;  
+    padding-top: 20px;
+  }
+
+  .home-available-now {
+    margin: 0px;  
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;      
+    height: 90vh;
+  }
+
+  #home-white-cd { 
+    width: 50vw;  
+    height: 1000px;
+    align-items: center;
+  }
+
+  #home-blue-cd { 
+    width: 50vw;  
+    height: 1000px; 
+    align-items: center;
+  }
+
+  #white-cd-image {   
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+
+  #blue-cd-image { 
+    width: 600px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+
+  #cdButton {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: grey;
+  }
+
+  #sign-up-container { 
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column; 
+    background-size: cover;
+    background-image: url('signup-transparent.png');
+    background-repeat: no-repeat;  
+    padding-top: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #email, #password {
+    width: 500px;
+    height: 50px; 
+    margin-bottom: 30px;
+    border-radius: 20px;
+    outline: none; 
+    border: none;
+  }
+
+  input {
+    padding-left: 20px; 
+  }
+  
+  #signupbutton {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px; 
+    border: 1px lightblue; 
+    margin-bottom: 50px;
+  }
+
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    overflow: hidden;
+    height: 40px;
+    width: 300px;
+  }
+
+  .quantity-button {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #fff; 
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-right: 10px;
+    user-select: none; /* Disable text selection */
+    height: 40px;
+  }
+
+  .quantity-input {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+
+  header{
+    font-family: Mistral;
+    font-size: 30px;
+    text-align: center;
+  }
+  p{
+    font-family: Pyunji R;
+    font-size: 20px;
+  }
+  rem{
+    font-family: Mistral;
+    color: skyblue;
+  }
+  h2{
+    font-family: Mistral;
+    color:cadetblue;
+  }
+  h3{
+    font-family: Pyunji R;
+  }
+  @font-face {
+    font-family: 'Pyunji R';
+    src: url('pyunjir.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Mistral';
+    src: url('MISTRAL.ttf') format('truetype');
+  }  
+ 
+ 
+  .date1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .date2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .date3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .date4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .date5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
