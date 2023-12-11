@@ -8,13 +8,6 @@ body{
     font-family: Pyunji R;
   }
 
-  h4{
-    font-family: Pyunji R;
-  }
-
-  h5{
-    font-family:'Times New Roman', Times, serif
-  }
   ul { 
     list-style-type: none; 
     overflow: hidden;
@@ -52,9 +45,9 @@ body{
 
   #home-video-container {  
     margin: 0px;
-    background-image: url('image_signup.jpg');
-    width: 100vw; 
     padding: 30px;
+    background-image: url('image_signup.jpg');
+    width: 100vw;  
     overflow: hidden;
   }
   
@@ -89,13 +82,36 @@ body{
     margin-left: 100px;
   }
 
-  #available-container { 
+  #available-container {
     margin: 0px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    align-items: center; /* Center child elements horizontally */
     background-size: cover;
     background-image: url('rmb-transparent.png');
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+
+  #about-us-container { 
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center child elements horizontally */
+    background-size: cover;
+    background-image: url('rmb-transparent.png');
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+
+  #merchpage-container {  
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center child elements horizontally */
+    background-size: cover;
+    background-image: url('rmb-transparent.png');
+    background-repeat: no-repeat;
+    justify-content: space-between;
     padding-top: 20px;
   }
 
@@ -108,15 +124,19 @@ body{
   }
 
   #home-white-cd { 
-    width: 50vw;  
+    width: 40vw;  
     height: 1000px;
     align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   #home-blue-cd { 
-    width: 50vw;  
+    width: 40vw;  
     height: 1000px; 
     align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   #white-cd-image {   
@@ -127,7 +147,7 @@ body{
   }
 
   #blue-cd-image { 
-    width: 600px;
+    width: 500px;
     height: 300px;
     background-repeat: no-repeat;
     background-position: center; 
@@ -169,6 +189,19 @@ body{
   input {
     padding-left: 20px; 
   }
+
+  #checkoutButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   
   #signupbutton {
     width: 150px;
@@ -182,25 +215,24 @@ body{
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
-    border-radius: 5px; 
+    border-radius: 5px;
     overflow: hidden;
     height: 40px;
     width: 300px;
+    margin-top: 10px; /* Adjust the margin as needed */
   }
-
+  
   .quantity-button {
     cursor: pointer;
     font-size: 16px;
-    background-color: #fff; 
-    padding-top: 20px; 
-    padding-left: 20px;
-    padding-right: 10px;
-    user-select: none; /* Disable text selection */
-    height: 40px;
+    background-color: #fff;
+    padding: 5px;
+    -webkit-user-select: none;
+    user-select: none;
   }
-
+  
   .quantity-input {
-    width: 300px;
+    width: 100px; /* Adjust the width as needed */
     height: 40px;
     text-align: center;
     border: none;
@@ -208,6 +240,7 @@ body{
     outline: none;
     font-size: 16px;
   }
+  
 
   header{
     font-family: Mistral;
@@ -229,6 +262,76 @@ body{
   h3{
     font-family: Pyunji R;
   }
+
+  #merch-container { 
+    width: 600px;
+    height: 500px; 
+    background-image: url('merch_whitesnow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #cd-desc-container { 
+    padding-left: 100px; 
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .quantity, .total {
+    text-align: center;
+  }
+
+  #all-tours-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #single-tour-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    border: 2px solid cadetblue; 
+    background-color: white;
+    color: cadetblue;
+  }
+
   @font-face {
     font-family: 'Pyunji R';
     src: url('pyunjir.ttf') format('truetype');
@@ -237,37 +340,17 @@ body{
     font-family: 'Mistral';
     src: url('MISTRAL.ttf') format('truetype');
   }  
- 
- 
-  .date1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  .date2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-  .date3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-  .date4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-  .date5{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
   
+  .contactus{
+    /* The image used */
+  background-image: url("spotify_page.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+ 
