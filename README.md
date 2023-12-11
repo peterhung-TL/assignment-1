@@ -15,3 +15,45 @@ feature 6 - allow users to view the names and songs of the music the band has pr
 feature 7 - allow users to view the band's tour dates by clicking the tours category on the navigation panel.
 
 technologies used: 
+-html
+https://html.com/
+I used html to create the backbone of my website. It provides a framework for web pages which allows browsers to understand and display the contents onto a page
+-css
+https://www.w3.org/Style/CSS/Overview.en.html
+I used css to help design and layout of my webpage, this includes colour as well as different fonts
+java
+https://www.java.com/en/
+java
+I used java to create dynamic and interactive web content, which in this case, is adjust the number of items that can be added to the cart.
+
+testing:
+1. Contact Form:
+i.Go to the "Contact Us" page
+ii.Try to submit the empty form with nothing in the email address,name and message column in filled and verify that an error message about the required fields appears.
+iii.Try to submit the form with an invalid email address and verify that a relevant error message appears.
+iv. Try to submit the form with one or two empty credentials, be it email address, name or message and verify that a missing error message appears.
+v.Try to submit the form with all inputs valid and verify that a success message appears.
+2. Sign Up Form
+i. Go to the "Sign Up" page
+ii. Try to submit the empty form with nothing in the email address and password column in filled and verify that an error message about the required fields appears.
+iii.Try to submit the form with an invalid email address and verify that a relevant error message appears.
+iv. Try to submit the form with passwords which do not contain a capital letter, small letter or numbers and verify that the password entered does notcontain the required characters.
+v.Try to submit the form with all valid inputs valid and verify that a success message appears.
+
+
+credits:
+Content
+-the 'who are we' portion from the about us page  was taken from https://www.esplanade.com/whats-on/festivals-and-series/series/2023/mosaic-music-series/remember-a-stranger#artist-information
+-the 'inspiration' portion from the home page was taken from https://motifs.bandcamp.com/album/remember-a-stranger
+-the FAQs portion was taken from https://get.bandcamp.help/hc/en-us/sections/360001562874-Downloading-music
+the 'tour portion was taken from https://motifs.bandcamp.com/music.
+
+media:
+the photos in this site was obtained from
+-https://hear65.bandwagon.asia/articles/motifs-to-drop-debut-album-remember-a-stranger-this-november-music-release-2022-shoegaze-dream-pop-singapore
+-https://www.esplanade.com/whats-on/festivals-and-series/festivals/2022/baybeats/line-up/motifs
+-motifs band singapore
+-https://motifs.bandcamp.com/music
+
+acknowledgments:
+i got inspiration from https://www.taylorswift.com/
